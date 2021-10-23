@@ -1,0 +1,37 @@
+# Plugin recompiled and cracked by NaulbiMIX | Sponsored by FlatiCommunity (https://t.me/flaticommunity)
+# Specially publication for https://teletype.in/@naulbimix/rumine
+#
+# Плагин разработан командой кодеров UniversalStudio
+# Если Вы обнаружите какой-либо баг, незамедлительно сообщите нам.
+# Vk: vk.com/universalstudio
+# Site: u-studio.su
+
+# Права:
+# ucutter.salary - Получить зарплату /cutter salary
+# ucutter.reload - Перезагрузить конфиг /cutter reload
+
+# Плейсхолдеры:
+# %ucutter_salary% - Зарплата игрока
+# %ucutter_breaks% - Кол-во срубленных деревьев
+#
+
+KEY: ''
+
+messages:
+    prefix: '&6UniversalCutter &e| &f'
+    usage: 'Используйте: &7/cutter salary/reload'
+    breaked: 'Вы успешно срубили дерево.'
+    onlyWood: 'Здесь можно ломать только деревья.'
+    placeDeny: 'Вы не можете поставить блоки здесь.'
+    cut: 'Осталось срубить &a%number &fраз'
+    unknown: 'Неизвестная подкоманда.'
+    config-reloaded: 'Конфиг перезагружен.'
+    noPermission: 'У вас нет прав.'
+    salary-zero: 'У вас нет зарплаты, ломайте дервья, чтобы получать зарплату.'
+    salary-gived: 'Вы получили зарплату в размере &e%salary%$'
+    console: 'Команда доступна только игрокам'
+
+regions:
+    spawn:
+        earn: 200
+        cooldown: 5

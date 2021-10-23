@@ -1,0 +1,20 @@
+# Plugin recompiled and cracked by NaulbiMIX | Sponsored by FlatiCommunity (https://t.me/flaticommunity)
+# Specially publication for https://teletype.in/@naulbimix/rumine
+#
+# Плагин разработан командой кодеров UniversalStudio
+# Если Вы обнаружите какой-либо баг, незамедлительно сообщите нам.
+# Vk: vk.com/universalstudio
+# Site: u-studio.su
+
+name: UniversalCutter
+author: UniversalStudio Inc
+
+version: 1.0
+main: ru.universalstudio.universalcutter.Main
+
+depend: [WorldEdit, WorldGuard]
+softdepend: [Vault]
+
+commands:
+    ucutter:
+        aliases: [cutter]
